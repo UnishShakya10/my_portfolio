@@ -6,11 +6,12 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Constellation from "./components/Constellation";
+import Preloader from "./components/Preloader";
 
 export default function Home() {
   return (
     <main className="relative overflow-hidden">
-
+        <Preloader/>
       {/* GLOBAL CONSTELLATION BACKGROUND */}
       <Constellation />
 
