@@ -112,6 +112,28 @@ const projects = [
     github: "#",
     live: null,
   },
+  {
+  id: "EXP-05",
+  phase: "Phase 05 · Putting it together",
+  title: "Personal Portfolio",
+  status: "LIVE",
+  description:
+    "The interactive portfolio you're looking at: a dark, animated site that tells my story as a developer.",
+  image: "/projects/me.jpg",
+  stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Lucide", "React Icons"],
+  tested: [
+    "Scroll-based reveal animations with Framer Motion",
+    "Interactive SVG skills constellation",
+    "Responsive layouts across desktop and mobile",
+  ],
+  challenge:
+    "Keeping animations smooth while handling server and client rendering differences in Next.js.",
+  learned:
+    "Small details like spacing, motion and hierarchy decide whether a site feels polished.",
+  accent: "#F59E0B", // amber
+  github: "#", // paste your portfolio repo link
+  live: "https://my-portfolio-three-amber-37.vercel.app/",
+},
 ];
 
 /* ---------- SINGLE EXPERIMENT ---------- */
