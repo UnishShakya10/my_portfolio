@@ -78,7 +78,7 @@ export default function About() {
                 </p>
 
                 <p className="mt-2 text-sm text-white/80">
-                  Frontend Developer
+                  MernStack Developer
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function About() {
             <h2 className="text-4xl font-medium leading-tight tracking-tight md:text-5xl lg:text-6xl">
               I&apos;m a{" "}
               <span className="bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                frontend developer
+                mern stacks developer
               </span>{" "}
               who enjoys turning ideas into digital experiences.
             </h2>

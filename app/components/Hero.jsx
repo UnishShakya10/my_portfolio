@@ -119,7 +119,7 @@ export default function Hero() {
         >
           <div>
             <p className="text-2xl font-medium leading-tight md:text-3xl">
-              Frontend Developer
+              MernStack Developer
               <br />
               <span className="gradient-text">
                 & Computer Engineering Graduate
