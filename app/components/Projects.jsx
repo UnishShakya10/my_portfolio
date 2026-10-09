@@ -134,6 +134,28 @@ const projects = [
   github: "#", // paste your portfolio repo link
   live: "https://my-portfolio-three-amber-37.vercel.app/",
 },
+{
+  id: "WEB-05",
+  phase: "Phase 05 · Real-world builds",
+  title: "Newa Ghasa",
+  status: "LIVE",
+  description:
+    "A restaurant website for a Kathmandu eatery, showcasing soulful Nepali flavors, seasonal ingredients and a warm welcome.",
+  image: "/projects/newa-ghasa.jpg",
+  stack: ["React", "Vite", "Tailwind CSS", "Vercel"],
+  tested: [
+    "Menu and section layout across screen sizes",
+    "Navigation and page flow",
+    "Deployment and live performance on Vercel",
+  ],
+  challenge:
+    "Giving the site a warm, authentic Nepali feel while keeping it clean and easy to browse.",
+  learned:
+    "Good restaurant design is about atmosphere first. Layout, spacing and imagery matter as much as the menu itself.",
+  accent: "#D97706",
+  github: "#",
+  live: "https://restaurant-e-commerce-two.vercel.app/",
+},
 ];
 
 /* ---------- SINGLE EXPERIMENT ---------- */
