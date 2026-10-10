@@ -50,7 +50,7 @@ const projects = [
     id: "EXP-02",
     phase: "Phase 02 · Full-stack flow",
     title: "Expense Tracker",
-    status: "TESTED",
+    status: "LIVE",
     description:
       "A practical app for recording, organizing and managing personal expenses.",
     image: "/projects/expense.jpg",
@@ -65,8 +65,8 @@ const projects = [
     learned:
       "How a single request travels through the entire stack, end to end.",
     accent: "#3B82F6", // blue
-    github: "#",
-    live: null,
+    github: "https://github.com/UnishShakya10/Expense_Tracker.git",
+    live: "https://expense-tracker-iota-tawny.vercel.app/",
   },
   {
     id: "EXP-03",

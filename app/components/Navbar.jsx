@@ -16,7 +16,7 @@ export default function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="fixed left-0 top-0 z-50 w-full px-6 py-6 md:px-10"
+      className="absolute left-0 top-0 z-50 w-full px-6 py-6 md:px-10"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         
