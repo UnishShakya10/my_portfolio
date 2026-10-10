@@ -1,30 +1,30 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDownRight, ArrowUpRight, Mail, Phone } from "lucide-react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { ArrowDownRight, ArrowUpRight, Mail } from "lucide-react";
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const links = [
   {
-    label: "shakyaunish5@gmail.com",
-    href: "mailto:shakyaunish5@gmail.com",
-    icon: Mail,
-    external: false,
-    delay: 0.2,
-    card: "hover:border-violet-500/40 hover:bg-violet-500/5",
-    iconBox: "bg-violet-500/10 text-violet-400",
-    arrow: "group-hover:text-violet-400",
-  },
-  {
-    label: "+977 9861616232",
-    href: "tel:+9779861616232",
-    icon: Phone,
-    external: false,
-    delay: 0.3,
-    card: "hover:border-cyan-500/40 hover:bg-cyan-500/5",
-    iconBox: "bg-cyan-500/10 text-cyan-400",
-    arrow: "group-hover:text-cyan-400",
-  },
+  label: "shakyaunish5@gmail.com",
+  href: "https://mail.google.com/mail/?view=cm&fs=1&to=shakyaunish5@gmail.com",
+  icon: Mail,
+  external: true,
+  delay: 0.2,
+  card: "hover:border-violet-500/40 hover:bg-violet-500/5",
+  iconBox: "bg-violet-500/10 text-violet-400",
+  arrow: "group-hover:text-violet-400",
+},
+{
+  label: "+977 9861616232",
+  href: "https://wa.me/9779861616232",
+  icon: FaWhatsapp,
+  external: true,
+  delay: 0.3,
+  card: "hover:border-green-500/40 hover:bg-green-500/5",
+  iconBox: "bg-green-500/10 text-green-400",
+  arrow: "group-hover:text-green-400",
+},
   {
     label: "GitHub",
     href: "https://github.com/UnishShakya10",
